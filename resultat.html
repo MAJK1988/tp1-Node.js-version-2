@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My File</title>
+</head>
+<body>
+   
+    <form action="/resultat" method="POST" id="from">
+        <fieldset>
+          <h3>Affichage du résultat</h3>
+         
+        <div id='resultat'>
+
+        </div>
+          <button type ="reset" >Reset</button>
+          <button type ="submit" >Submit</button>
+        </fieldset>
+      </form>
+     
+      
+
+
+      
+
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+         
+        
+        var from=document.getElementById('resultat');
+        var sum=0;
+        for(let i in number){
+            sum+=Number(number[i])
+            from.innerHTML +='<label> TAB['+i+']= '+number[i]+'  =>  RES['+i+']= '+ sum+ ' </label>' +
+          '<br></br>';
+        }
+
+
+}, false);
+ 
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My File</title>
+</head>
+<body>
+   
+    <form action="/table" method="POST" id="from">
+        <fieldset>
+          <h3>Saisie des données du tab</h3>
+          <p id="number"></p>
+        <div id='table'>
+
+        </div>
+          <button type ="reset" >Reset</button>
+          <button type ="submit" >Submit</button>
+        </fieldset>
+      </form>
+     
+      
+
+
+      
+
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+         var numberParaphe=document.getElementById('number');
+         numberParaphe.innerHTML='Veuillez saisir les '+number.leNomDuChamp+' nombres';
+
+        var from=document.getElementById('table');
+        for(i=0;i<number.leNomDuChamp;i++){
+            from.innerHTML +='<label> TAB['+i+']= </label>'+'<input type ="number" name= "'+String(i)+'" required>'+
+          '<br></br>';
+        }
+
+
+}, false);
+ 
+</script>
+
+</body>
+
+</html>
