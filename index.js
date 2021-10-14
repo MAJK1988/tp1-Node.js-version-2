@@ -64,7 +64,8 @@ function setHtml(res,page){
         }
             else if(page==='./resultat.html'){
                 console.log(dataHtml)
-                res.write('<script>var number ='+dataHtml+'</script>');
+                res.writeO
+                ('<script>var number ='+dataHtml+'</script>');
         }
             res.write(data);
         }
