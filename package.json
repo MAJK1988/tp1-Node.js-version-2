@@ -1,0 +1,23 @@
+{
+  "name": "tp18http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahmoud KADDOUR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "node-fetch": "^3.0.0",
+    "parser": "^0.1.4",
+    "socket.io": "^4.2.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
